@@ -22,6 +22,6 @@ class ActivityEmptyNameException implements Exception {
       : "ActivityEmptyNameException: $message";
 }
 
-// class StartEvent extends Activity {
-//   StartEvent({required String name}) : super(name: name);
-// }
+class StartEvent extends Activity {
+  StartEvent({required String name}) : super(name: name);
+}
